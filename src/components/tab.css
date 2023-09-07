@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tab-list{
+    list-style: none;
+    display: flex;
+}
+
+.even-tab {
+    background-color: #c9c9c9; 
+    
+}
+  
+.odd-tab {
+    background-color: #7d7d7d; 
+}
+
+.even-container {
+    background-color: #c9c9c9; 
+    border: 5px solid #7d7d7d;
+    margin-top: 2px;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+  
+.odd-container {
+    background-color: #7d7d7d; 
+    border: 5px solid #7d7d7d;
+    margin-top: 2px;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+li{
+    border: 3px solid #7d7d7d;
+    border-radius: 5px;
+    padding: 20px ;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.activeTab{
+    border: 5px solid #7d7d7d;
+    margin-top: 2px;
+    height: 93vh;
+    background-color: #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
